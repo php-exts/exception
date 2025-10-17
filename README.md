@@ -1,20 +1,25 @@
 <p style="text-align:center;font-size:46px;"> PHP Dev Template</p>
 
-## About XXX
-- What's this?
-
 ## Features
--
+- exceptions
 
 ## Usage
--
+
+```php
+use Zeus\Exception\InvalidArgumentException;
+try {
+  throw new InvalidArgumentException('test');
+} catch (InvalidArgumentException $e) {
+  echo $e->getMessage();
+}
+```
 
 ## Installation
-- Install XXX with [Composer](https://getcomposer.org/)
-  - `composer require ext/xxxx`
+- Install with [Composer](https://getcomposer.org/)
+  - `composer require ext/exception`
 
 ## Documentation
--
+- [Report](https://github.com/php-exts/exception/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3Abug)
 
 ## CHANGELOG
 See [CHANGELOG.md]()
@@ -23,7 +28,7 @@ See [CHANGELOG.md]()
 -
 
 ## Security Vulnerabilities
--
+- https://github.com/php-exts/exception
 
 ## License
 
