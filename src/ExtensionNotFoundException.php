@@ -9,4 +9,4 @@ namespace Zeus\Exception;
  * @copyright (c) 2025 CloudFlying
  * @date 2025/06/03 21:15:29
  */
-class ExtensionNotFound extends Exception {}
+class ExtensionNotFoundException extends Exception {}
